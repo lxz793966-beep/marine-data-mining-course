@@ -1,0 +1,11 @@
+{
+  "date":"2026-11-12",
+  "design_status":"Independent follow-up designed after inspecting the grid-geometry extension. The original 2 km width is retained; 16 grids are tested without claiming global optimality.",
+  "methods":["four_median","sixteen_median"],
+  "calibration_widths":[1.2,2.0],"calibration_n":1200,"calibration_seed_base":60000000,
+  "test_widths":[1.2,1.6,2.0],"test_n":1200,"test_seed_base":70000000,
+  "distances_km":[0,1,2,3],"n_reports":800,"hotspot_fraction":0.6,"cell_width_km":2,
+  "base_origin_km":[0,0],"axis_origins":[2,4],"calibration_alpha":0.04,"minimum_estimated_km":1,
+  "tail_probability":0.016666666666666666,"bootstrap_repeats":2000,"bootstrap_seed":20261113,
+  "scope":"Isotropic single hotspot with uniform background. All inputs paired across the two estimators. Calibration and testing use distinct seeds, and none of the geometry observations are reused. Three-width simultaneous one-sided confidence bounds are evaluated separately within each method, distance and side; mean-error comparisons are pointwise descriptive intervals."
+}

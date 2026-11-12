@@ -1,0 +1,1480 @@
+{
+  "tail_probability_per_width": 0.01666666666666668,
+  "shared_thresholds_km": {
+    "single_2km": 2.0,
+    "single_1km": 2.2360679775,
+    "four_mean": 1.414213562373,
+    "four_median": 1.414213562373
+  },
+  "decision": {
+    "single_2km": {
+      "false_report_ok": false,
+      "accepted_tested_distances_km": []
+    },
+    "single_1km": {
+      "false_report_ok": true,
+      "accepted_tested_distances_km": []
+    },
+    "four_mean": {
+      "false_report_ok": true,
+      "accepted_tested_distances_km": [
+        2,
+        3
+      ]
+    },
+    "four_median": {
+      "false_report_ok": true,
+      "accepted_tested_distances_km": [
+        2,
+        3
+      ]
+    }
+  },
+  "groups": [
+    {
+      "sigma_km": 1.2,
+      "truth_distance_km": 0,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 0.23925502555697425,
+          "p90_vector_error_km": 2.0,
+          "fixed": {
+            "reported": 300,
+            "rate": 0.125,
+            "bounds": [
+              0.11096229587310234,
+              0.1401048871256347
+            ]
+          },
+          "calibrated": {
+            "reported": 4,
+            "rate": 0.0016666666666666668,
+            "bounds": [
+              0.0004004181175683366,
+              0.004515919503451274
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.5562931346770711,
+          "p90_vector_error_km": 1.0,
+          "fixed": {
+            "reported": 1151,
+            "rate": 0.4795833333333333,
+            "bounds": [
+              0.4577154822182406,
+              0.5015089167717496
+            ]
+          },
+          "calibrated": {
+            "reported": 0,
+            "rate": 0.0,
+            "bounds": [
+              0.0,
+              0.0017045225494801797
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.23553882587178146,
+          "p90_vector_error_km": 1.0,
+          "fixed": {
+            "reported": 256,
+            "rate": 0.10666666666666667,
+            "bounds": [
+              0.09361119866243706,
+              0.1208429873927068
+            ]
+          },
+          "calibrated": {
+            "reported": 0,
+            "rate": 0.0,
+            "bounds": [
+              0.0,
+              0.0017045225494801797
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.23508864065776844,
+          "p90_vector_error_km": 1.0,
+          "fixed": {
+            "reported": 256,
+            "rate": 0.10666666666666667,
+            "bounds": [
+              0.09361119866243706,
+              0.1208429873927068
+            ]
+          },
+          "calibrated": {
+            "reported": 0,
+            "rate": 0.0,
+            "bounds": [
+              0.0,
+              0.0017045225494801797
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sigma_km": 1.2,
+      "truth_distance_km": 0.5,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 0.8620603234671542,
+          "p90_vector_error_km": 1.7089467096843258,
+          "fixed": {
+            "reported": 744,
+            "rate": 0.31,
+            "bounds": [
+              0.2899813701320816,
+              0.3305564365348091
+            ]
+          },
+          "calibrated": {
+            "reported": 65,
+            "rate": 0.027083333333333334,
+            "bounds": [
+              0.020495902382718464,
+              0.035042393638490335
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.7281116879958104,
+          "p90_vector_error_km": 1.1793671145568068,
+          "fixed": {
+            "reported": 1498,
+            "rate": 0.6241666666666666,
+            "bounds": [
+              0.6027557881110028,
+              0.6452262992021711
+            ]
+          },
+          "calibrated": {
+            "reported": 0,
+            "rate": 0.0,
+            "bounds": [
+              0.0,
+              0.0017045225494801797
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.5452335424302358,
+          "p90_vector_error_km": 0.8124142930373938,
+          "fixed": {
+            "reported": 1068,
+            "rate": 0.445,
+            "bounds": [
+              0.42329460246489203,
+              0.4668609316658293
+            ]
+          },
+          "calibrated": {
+            "reported": 0,
+            "rate": 0.0,
+            "bounds": [
+              0.0,
+              0.0017045225494801797
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.5413229854799164,
+          "p90_vector_error_km": 0.806525319711838,
+          "fixed": {
+            "reported": 1068,
+            "rate": 0.445,
+            "bounds": [
+              0.42329460246489203,
+              0.4668609316658293
+            ]
+          },
+          "calibrated": {
+            "reported": 0,
+            "rate": 0.0,
+            "bounds": [
+              0.0,
+              0.0017045225494801797
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sigma_km": 1.2,
+      "truth_distance_km": 1,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 1.2179036100923581,
+          "p90_vector_error_km": 1.8415400056755307,
+          "fixed": {
+            "reported": 1349,
+            "rate": 0.5620833333333334,
+            "bounds": [
+              0.5402486171615174,
+              0.5837424807206169
+            ]
+          },
+          "calibrated": {
+            "reported": 238,
+            "rate": 0.09916666666666667,
+            "bounds": [
+              0.08654737988722966,
+              0.11292892811155146
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.6720397797835644,
+          "p90_vector_error_km": 1.1649068565523177,
+          "fixed": {
+            "reported": 2050,
+            "rate": 0.8541666666666666,
+            "bounds": [
+              0.8381282794457917,
+              0.8691983495634454
+            ]
+          },
+          "calibrated": {
+            "reported": 3,
+            "rate": 0.00125,
+            "bounds": [
+              0.00022040533387531332,
+              0.0038865735928194536
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.4535429900294607,
+          "p90_vector_error_km": 0.842332412799953,
+          "fixed": {
+            "reported": 2124,
+            "rate": 0.885,
+            "bounds": [
+              0.8703877975962192,
+              0.8985158083695943
+            ]
+          },
+          "calibrated": {
+            "reported": 102,
+            "rate": 0.0425,
+            "bounds": [
+              0.034179399362402614,
+              0.05213803487807356
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.45057164156109003,
+          "p90_vector_error_km": 0.841239360897524,
+          "fixed": {
+            "reported": 2124,
+            "rate": 0.885,
+            "bounds": [
+              0.8703877975962192,
+              0.8985158083695943
+            ]
+          },
+          "calibrated": {
+            "reported": 105,
+            "rate": 0.04375,
+            "bounds": [
+              0.0353055355901186,
+              0.05350776020835953
+            ]
+          }
+        }
+      },
+      "four_median_comparisons": {
+        "single_2km": {
+          "difference_km": -0.767331968531268,
+          "ci95": [
+            -0.7834099352076467,
+            -0.7520073690417467
+          ]
+        },
+        "single_1km": {
+          "difference_km": -0.22146813822247433,
+          "ci95": [
+            -0.23738901706315807,
+            -0.2058269824093445
+          ]
+        },
+        "four_mean": {
+          "difference_km": -0.0029713484683705823,
+          "ci95": [
+            -0.004642129010653267,
+            -0.0013204333885672782
+          ]
+        }
+      }
+    },
+    {
+      "sigma_km": 1.2,
+      "truth_distance_km": 2,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 0.9349890048025217,
+          "p90_vector_error_km": 1.7814045070965385,
+          "fixed": {
+            "reported": 2271,
+            "rate": 0.94625,
+            "bounds": [
+              0.9355991115274275,
+              0.9556199054406611
+            ]
+          },
+          "calibrated": {
+            "reported": 854,
+            "rate": 0.35583333333333333,
+            "bounds": [
+              0.3350437799622064,
+              0.37703077089997306
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.695663411796646,
+          "p90_vector_error_km": 1.1989225544373843,
+          "fixed": {
+            "reported": 2399,
+            "rate": 0.9995833333333334,
+            "bounds": [
+              0.9974830901774434,
+              0.9999929970585556
+            ]
+          },
+          "calibrated": {
+            "reported": 437,
+            "rate": 0.18208333333333335,
+            "bounds": [
+              0.1655691515854477,
+              0.19949981837668718
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.4720574480842447,
+          "p90_vector_error_km": 0.8293844589138002,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2094,
+            "rate": 0.8725,
+            "bounds": [
+              0.8572767383471236,
+              0.8866633608752079
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.46983840353691875,
+          "p90_vector_error_km": 0.829328273523567,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2098,
+            "rate": 0.8741666666666666,
+            "bounds": [
+              0.8590221161347067,
+              0.8882464624550682
+            ]
+          }
+        }
+      },
+      "four_median_comparisons": {
+        "single_2km": {
+          "difference_km": -0.465150601265603,
+          "ci95": [
+            -0.48612479839861855,
+            -0.4446898157997243
+          ]
+        },
+        "single_1km": {
+          "difference_km": -0.22582500825972715,
+          "ci95": [
+            -0.242283164967432,
+            -0.2098953562248091
+          ]
+        },
+        "four_mean": {
+          "difference_km": -0.002219044547326036,
+          "ci95": [
+            -0.0038579262584436695,
+            -0.0006993464713842312
+          ]
+        }
+      }
+    },
+    {
+      "sigma_km": 1.2,
+      "truth_distance_km": 3,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 1.09509219536643,
+          "p90_vector_error_km": 1.7144261739625153,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 1827,
+            "rate": 0.76125,
+            "bounds": [
+              0.7421616469870775,
+              0.7795980173938934
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.6951087530961304,
+          "p90_vector_error_km": 1.1833150420260772,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 1961,
+            "rate": 0.8170833333333334,
+            "bounds": [
+              0.7996383297216985,
+              0.8336284245838085
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.47597169607941064,
+          "p90_vector_error_km": 0.8375050728154181,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.47375972550002415,
+          "p90_vector_error_km": 0.8321781991307481,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sigma_km": 1.6,
+      "truth_distance_km": 0,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 0.4641154754802943,
+          "p90_vector_error_km": 2.0,
+          "fixed": {
+            "reported": 587,
+            "rate": 0.24458333333333335,
+            "bounds": [
+              0.2260742900633825,
+              0.263816094500101
+            ]
+          },
+          "calibrated": {
+            "reported": 23,
+            "rate": 0.009583333333333333,
+            "bounds": [
+              0.00584152733097889,
+              0.014781185168964692
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.8974597104435906,
+          "p90_vector_error_km": 1.4142135623730951,
+          "fixed": {
+            "reported": 1613,
+            "rate": 0.6720833333333334,
+            "bounds": [
+              0.6512502959079516,
+              0.6924293764156288
+            ]
+          },
+          "calibrated": {
+            "reported": 3,
+            "rate": 0.00125,
+            "bounds": [
+              0.00022040533387531332,
+              0.0038865735928194536
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.4120113296655932,
+          "p90_vector_error_km": 1.0,
+          "fixed": {
+            "reported": 446,
+            "rate": 0.18583333333333332,
+            "bounds": [
+              0.16918108165929885,
+              0.20337713173325622
+            ]
+          },
+          "calibrated": {
+            "reported": 0,
+            "rate": 0.0,
+            "bounds": [
+              0.0,
+              0.0017045225494801797
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.41155048440483266,
+          "p90_vector_error_km": 1.0,
+          "fixed": {
+            "reported": 445,
+            "rate": 0.18541666666666667,
+            "bounds": [
+              0.1687796268931537,
+              0.20294644800965858
+            ]
+          },
+          "calibrated": {
+            "reported": 0,
+            "rate": 0.0,
+            "bounds": [
+              0.0,
+              0.0017045225494801797
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sigma_km": 1.6,
+      "truth_distance_km": 0.5,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 0.9285733449977202,
+          "p90_vector_error_km": 1.8133731380277633,
+          "fixed": {
+            "reported": 857,
+            "rate": 0.3570833333333333,
+            "bounds": [
+              0.33627575611472516,
+              0.3782952540273046
+            ]
+          },
+          "calibrated": {
+            "reported": 89,
+            "rate": 0.037083333333333336,
+            "bounds": [
+              0.029324605797878742,
+              0.046177774026391144
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.9624615974674207,
+          "p90_vector_error_km": 1.6409229634772609,
+          "fixed": {
+            "reported": 1749,
+            "rate": 0.72875,
+            "bounds": [
+              0.7089146247874849,
+              0.7479375306325599
+            ]
+          },
+          "calibrated": {
+            "reported": 15,
+            "rate": 0.00625,
+            "bounds": [
+              0.0033227882054862913,
+              0.010662365129691905
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.5558945571984267,
+          "p90_vector_error_km": 0.9147230993877437,
+          "fixed": {
+            "reported": 1026,
+            "rate": 0.4275,
+            "bounds": [
+              0.40591697190078,
+              0.4492880621724879
+            ]
+          },
+          "calibrated": {
+            "reported": 16,
+            "rate": 0.006666666666666667,
+            "bounds": [
+              0.003627127476129849,
+              0.011186980665097136
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.5497417948133136,
+          "p90_vector_error_km": 0.9142196420330712,
+          "fixed": {
+            "reported": 1027,
+            "rate": 0.42791666666666667,
+            "bounds": [
+              0.4063304077069125,
+              0.4497067810238156
+            ]
+          },
+          "calibrated": {
+            "reported": 15,
+            "rate": 0.00625,
+            "bounds": [
+              0.0033227882054862913,
+              0.010662365129691905
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sigma_km": 1.6,
+      "truth_distance_km": 1,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 1.2115063836010127,
+          "p90_vector_error_km": 1.8462688567483552,
+          "fixed": {
+            "reported": 1373,
+            "rate": 0.5720833333333334,
+            "bounds": [
+              0.5502932189761844,
+              0.5936695922930875
+            ]
+          },
+          "calibrated": {
+            "reported": 217,
+            "rate": 0.09041666666666667,
+            "bounds": [
+              0.07833538852627259,
+              0.10366688743549987
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.937030266892227,
+          "p90_vector_error_km": 1.6064051831838069,
+          "fixed": {
+            "reported": 2033,
+            "rate": 0.8470833333333333,
+            "bounds": [
+              0.8307529425271507,
+              0.8624274905256499
+            ]
+          },
+          "calibrated": {
+            "reported": 57,
+            "rate": 0.02375,
+            "bounds": [
+              0.017604207936214495,
+              0.03128039890946769
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.5151594362138812,
+          "p90_vector_error_km": 0.9999999999999999,
+          "fixed": {
+            "reported": 1963,
+            "rate": 0.8179166666666666,
+            "bounds": [
+              0.8005001816233128,
+              0.8344308484145523
+            ]
+          },
+          "calibrated": {
+            "reported": 314,
+            "rate": 0.13083333333333333,
+            "bounds": [
+              0.11650526737006098,
+              0.1462116019464713
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.5163633594145436,
+          "p90_vector_error_km": 0.9999999999999999,
+          "fixed": {
+            "reported": 1979,
+            "rate": 0.8245833333333333,
+            "bounds": [
+              0.807399765855644,
+              0.8408454574031524
+            ]
+          },
+          "calibrated": {
+            "reported": 331,
+            "rate": 0.13791666666666666,
+            "bounds": [
+              0.12324892564629576,
+              0.15361404206807056
+            ]
+          }
+        }
+      },
+      "four_median_comparisons": {
+        "single_2km": {
+          "difference_km": -0.6951430241864691,
+          "ci95": [
+            -0.7130329909072339,
+            -0.6776997219538897
+          ]
+        },
+        "single_1km": {
+          "difference_km": -0.4206669074776836,
+          "ci95": [
+            -0.4429860988710793,
+            -0.39894968384376084
+          ]
+        },
+        "four_mean": {
+          "difference_km": 0.0012039232006623712,
+          "ci95": [
+            -0.001601243421717804,
+            0.0038537684316782847
+          ]
+        }
+      }
+    },
+    {
+      "sigma_km": 1.6,
+      "truth_distance_km": 2,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 1.0105100634549986,
+          "p90_vector_error_km": 2.0,
+          "fixed": {
+            "reported": 2207,
+            "rate": 0.9195833333333333,
+            "bounds": [
+              0.9069616069317711,
+              0.9310061754028108
+            ]
+          },
+          "calibrated": {
+            "reported": 806,
+            "rate": 0.3358333333333333,
+            "bounds": [
+              0.3153534325242515,
+              0.3567777871655796
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.9453913309451962,
+          "p90_vector_error_km": 1.6134306380992027,
+          "fixed": {
+            "reported": 2374,
+            "rate": 0.9891666666666666,
+            "bounds": [
+              0.9837105829502077,
+              0.993175255613114
+            ]
+          },
+          "calibrated": {
+            "reported": 694,
+            "rate": 0.2891666666666667,
+            "bounds": [
+              0.26957317645196477,
+              0.30935709653546123
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.5252743978338036,
+          "p90_vector_error_km": 0.9315432514760132,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2108,
+            "rate": 0.8783333333333333,
+            "bounds": [
+              0.8633891935253061,
+              0.8922005683086945
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.5234742557396266,
+          "p90_vector_error_km": 0.9265268812068268,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2116,
+            "rate": 0.8816666666666667,
+            "bounds": [
+              0.8668867132242697,
+              0.8953599786138908
+            ]
+          }
+        }
+      },
+      "four_median_comparisons": {
+        "single_2km": {
+          "difference_km": -0.4870358077153719,
+          "ci95": [
+            -0.5110875835906533,
+            -0.4613743068033116
+          ]
+        },
+        "single_1km": {
+          "difference_km": -0.4219170752055696,
+          "ci95": [
+            -0.443296102930877,
+            -0.3999071397207611
+          ]
+        },
+        "four_mean": {
+          "difference_km": -0.0018001420941769935,
+          "ci95": [
+            -0.004164310908019025,
+            0.0005996784041512533
+          ]
+        }
+      }
+    },
+    {
+      "sigma_km": 1.6,
+      "truth_distance_km": 3,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 1.1530504391919139,
+          "p90_vector_error_km": 1.7715351628398304,
+          "fixed": {
+            "reported": 2399,
+            "rate": 0.9995833333333334,
+            "bounds": [
+              0.9974830901774434,
+              0.9999929970585556
+            ]
+          },
+          "calibrated": {
+            "reported": 1769,
+            "rate": 0.7370833333333333,
+            "bounds": [
+              0.7174264458469783,
+              0.7560686809420976
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 0.9535980618187507,
+          "p90_vector_error_km": 1.612216427929212,
+          "fixed": {
+            "reported": 2399,
+            "rate": 0.9995833333333334,
+            "bounds": [
+              0.9974830901774434,
+              0.9999929970585556
+            ]
+          },
+          "calibrated": {
+            "reported": 1908,
+            "rate": 0.795,
+            "bounds": [
+              0.7768446831448197,
+              0.8123186520096681
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.5223621274722907,
+          "p90_vector_error_km": 0.9314281742139962,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.5198328165463961,
+          "p90_vector_error_km": 0.9242832676687552,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sigma_km": 2,
+      "truth_distance_km": 0,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 0.7766210910067538,
+          "p90_vector_error_km": 2.0,
+          "fixed": {
+            "reported": 954,
+            "rate": 0.3975,
+            "bounds": [
+              0.376190874928498,
+              0.4190990410283761
+            ]
+          },
+          "calibrated": {
+            "reported": 102,
+            "rate": 0.0425,
+            "bounds": [
+              0.034179399362402614,
+              0.05213803487807356
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 1.191157758979363,
+          "p90_vector_error_km": 2.23606797749979,
+          "fixed": {
+            "reported": 1849,
+            "rate": 0.7704166666666666,
+            "bounds": [
+              0.7515649017578965,
+              0.7885019652233005
+            ]
+          },
+          "calibrated": {
+            "reported": 89,
+            "rate": 0.037083333333333336,
+            "bounds": [
+              0.029324605797878742,
+              0.046177774026391144
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.6466732460593572,
+          "p90_vector_error_km": 1.118033988749895,
+          "fixed": {
+            "reported": 764,
+            "rate": 0.31833333333333336,
+            "bounds": [
+              0.2981581356579804,
+              0.3390226996449454
+            ]
+          },
+          "calibrated": {
+            "reported": 56,
+            "rate": 0.023333333333333334,
+            "bounds": [
+              0.017245020951140777,
+              0.030807926543425384
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.6476565554108655,
+          "p90_vector_error_km": 1.118033988749895,
+          "fixed": {
+            "reported": 783,
+            "rate": 0.32625,
+            "bounds": [
+              0.30593297103826556,
+              0.34705874858059166
+            ]
+          },
+          "calibrated": {
+            "reported": 63,
+            "rate": 0.02625,
+            "bounds": [
+              0.01977011400957661,
+              0.0341046969502995
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sigma_km": 2,
+      "truth_distance_km": 0.5,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 1.0954203735614298,
+          "p90_vector_error_km": 2.1897268711814526,
+          "fixed": {
+            "reported": 1112,
+            "rate": 0.4633333333333333,
+            "bounds": [
+              0.44152877583504474,
+              0.48524157580625976
+            ]
+          },
+          "calibrated": {
+            "reported": 154,
+            "rate": 0.06416666666666666,
+            "bounds": [
+              0.05393419101062751,
+              0.07564753718276954
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 1.2174849858662875,
+          "p90_vector_error_km": 2.0702241827008443,
+          "fixed": {
+            "reported": 1890,
+            "rate": 0.7875,
+            "bounds": [
+              0.7691222275628811,
+              0.8050625446691847
+            ]
+          },
+          "calibrated": {
+            "reported": 104,
+            "rate": 0.043333333333333335,
+            "bounds": [
+              0.03492993225828853,
+              0.05305140675784595
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.6839271462020383,
+          "p90_vector_error_km": 1.1348861404165471,
+          "fixed": {
+            "reported": 1152,
+            "rate": 0.48,
+            "bounds": [
+              0.45813082851609854,
+              0.5019257255725026
+            ]
+          },
+          "calibrated": {
+            "reported": 141,
+            "rate": 0.05875,
+            "bounds": [
+              0.048954759312071335,
+              0.06981047383343687
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.6814499986586058,
+          "p90_vector_error_km": 1.1481823205302766,
+          "fixed": {
+            "reported": 1172,
+            "rate": 0.48833333333333334,
+            "bounds": [
+              0.4664409240706513,
+              0.5102587322614471
+            ]
+          },
+          "calibrated": {
+            "reported": 152,
+            "rate": 0.06333333333333334,
+            "bounds": [
+              0.05316664717484534,
+              0.07475099158136513
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sigma_km": 2,
+      "truth_distance_km": 1,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 1.2812494741424023,
+          "p90_vector_error_km": 1.9824416155501354,
+          "fixed": {
+            "reported": 1443,
+            "rate": 0.60125,
+            "bounds": [
+              0.5796414408967131,
+              0.6225721806630495
+            ]
+          },
+          "calibrated": {
+            "reported": 307,
+            "rate": 0.12791666666666668,
+            "bounds": [
+              0.11373254205500023,
+              0.14315947908469862
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 1.2019173223286173,
+          "p90_vector_error_km": 2.0355886121100015,
+          "fixed": {
+            "reported": 2047,
+            "rate": 0.8529166666666667,
+            "bounds": [
+              0.8368258728395384,
+              0.8680043716202909
+            ]
+          },
+          "calibrated": {
+            "reported": 204,
+            "rate": 0.085,
+            "bounds": [
+              0.07326918113926417,
+              0.09791594022685411
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.6727853494210003,
+          "p90_vector_error_km": 1.1592519414918465,
+          "fixed": {
+            "reported": 1802,
+            "rate": 0.7508333333333334,
+            "bounds": [
+              0.7314903711127134,
+              0.7694656288888898
+            ]
+          },
+          "calibrated": {
+            "reported": 618,
+            "rate": 0.2575,
+            "bounds": [
+              0.23865079238588816,
+              0.27703615647186053
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.6754568785220733,
+          "p90_vector_error_km": 1.152552297271871,
+          "fixed": {
+            "reported": 1814,
+            "rate": 0.7558333333333334,
+            "bounds": [
+              0.7366107317408583,
+              0.7743310303159174
+            ]
+          },
+          "calibrated": {
+            "reported": 651,
+            "rate": 0.27125,
+            "bounds": [
+              0.25206246936744015,
+              0.29108537521251515
+            ]
+          }
+        }
+      },
+      "four_median_comparisons": {
+        "single_2km": {
+          "difference_km": -0.6057925956203289,
+          "ci95": [
+            -0.6253951853352836,
+            -0.5853413284271165
+          ]
+        },
+        "single_1km": {
+          "difference_km": -0.5264604438065438,
+          "ci95": [
+            -0.5536484141965973,
+            -0.5004141870296028
+          ]
+        },
+        "four_mean": {
+          "difference_km": 0.0026715291010729727,
+          "ci95": [
+            -0.0013312312070180368,
+            0.006612950492299886
+          ]
+        }
+      }
+    },
+    {
+      "sigma_km": 2,
+      "truth_distance_km": 2,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 1.1446042996768282,
+          "p90_vector_error_km": 2.013427013648143,
+          "fixed": {
+            "reported": 2190,
+            "rate": 0.9125,
+            "bounds": [
+              0.8994280357297713,
+              0.9243943208959906
+            ]
+          },
+          "calibrated": {
+            "reported": 902,
+            "rate": 0.37583333333333335,
+            "bounds": [
+              0.3547737007978288,
+              0.3972442118889971
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 1.201438003064044,
+          "p90_vector_error_km": 2.003635481974536,
+          "fixed": {
+            "reported": 2312,
+            "rate": 0.9633333333333334,
+            "bounds": [
+              0.9542825220731698,
+              0.9710469984907107
+            ]
+          },
+          "calibrated": {
+            "reported": 880,
+            "rate": 0.36666666666666664,
+            "bounds": [
+              0.3457260009826392,
+              0.3879845341148861
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.6784556040718527,
+          "p90_vector_error_km": 1.1658678405116802,
+          "fixed": {
+            "reported": 2380,
+            "rate": 0.9916666666666667,
+            "bounds": [
+              0.9867445354702585,
+              0.9951231665940128
+            ]
+          },
+          "calibrated": {
+            "reported": 2066,
+            "rate": 0.8608333333333333,
+            "bounds": [
+              0.8450810442200745,
+              0.8755596124711199
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.6787827040507186,
+          "p90_vector_error_km": 1.1706579821690914,
+          "fixed": {
+            "reported": 2377,
+            "rate": 0.9904166666666666,
+            "bounds": [
+              0.9852188148310353,
+              0.9941584726690211
+            ]
+          },
+          "calibrated": {
+            "reported": 2082,
+            "rate": 0.8675,
+            "bounds": [
+              0.8520454093733216,
+              0.8819092323419356
+            ]
+          }
+        }
+      },
+      "four_median_comparisons": {
+        "single_2km": {
+          "difference_km": -0.4658215956261094,
+          "ci95": [
+            -0.49200802956238365,
+            -0.4404196469843965
+          ]
+        },
+        "single_1km": {
+          "difference_km": -0.5226552990133252,
+          "ci95": [
+            -0.5481999182011885,
+            -0.4951928007159544
+          ]
+        },
+        "four_mean": {
+          "difference_km": 0.00032709997886598026,
+          "ci95": [
+            -0.003494753163049251,
+            0.004190077714604378
+          ]
+        }
+      }
+    },
+    {
+      "sigma_km": 2,
+      "truth_distance_km": 3,
+      "pairs": 2400,
+      "methods": {
+        "single_2km": {
+          "mean_vector_error_km": 1.2285360403534136,
+          "p90_vector_error_km": 1.877447561864144,
+          "fixed": {
+            "reported": 2394,
+            "rate": 0.9975,
+            "bounds": [
+              0.9942843138335381,
+              0.9991649577283657
+            ]
+          },
+          "calibrated": {
+            "reported": 1758,
+            "rate": 0.7325,
+            "bounds": [
+              0.7127438694947006,
+              0.75159762461026
+            ]
+          }
+        },
+        "single_1km": {
+          "mean_vector_error_km": 1.223264332827225,
+          "p90_vector_error_km": 2.088799217328568,
+          "fixed": {
+            "reported": 2394,
+            "rate": 0.9975,
+            "bounds": [
+              0.9942843138335381,
+              0.9991649577283657
+            ]
+          },
+          "calibrated": {
+            "reported": 1801,
+            "rate": 0.7504166666666666,
+            "bounds": [
+              0.7310638264291485,
+              0.7690600264818253
+            ]
+          }
+        },
+        "four_mean": {
+          "mean_vector_error_km": 0.6891657868319242,
+          "p90_vector_error_km": 1.1654270930548951,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2396,
+            "rate": 0.9983333333333333,
+            "bounds": [
+              0.9954840804965487,
+              0.9995995818824317
+            ]
+          }
+        },
+        "four_median": {
+          "mean_vector_error_km": 0.6949132857042175,
+          "p90_vector_error_km": 1.1774531289258583,
+          "fixed": {
+            "reported": 2400,
+            "rate": 1.0,
+            "bounds": [
+              0.9982954774505198,
+              1.0
+            ]
+          },
+          "calibrated": {
+            "reported": 2397,
+            "rate": 0.99875,
+            "bounds": [
+              0.9961134264071806,
+              0.9997795946661246
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "thresholds_sha256": "400d35d782734636d45b3c5759421d4ea8a98f5742a35924059fb5c4b0c3522d",
+  "validation_csv_sha256": "d6c0b4b6441d33adcea495f447318c0c0f3fa47ce7507daf1796239008210dae"
+}

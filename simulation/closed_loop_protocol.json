@@ -1,0 +1,56 @@
+{
+  "description": "Follow-up to original AIS grid experiment. This protocol is frozen before generating calibration or validation data. The prior 0, 1 and 2 km tests motivate the follow-up and are not used to fit or test the rule.",
+  "calibration_alpha": 0.04,
+  "validation_false_report_limit": 0.05,
+  "validation_detection_target": 0.8,
+  "family_confidence": 0.95,
+  "minimum_estimated_km": 1,
+  "score_decimal_places": 12,
+  "calibration": [
+    {
+      "sigma_km": 1.2,
+      "start_seed": 10000,
+      "n": 1200
+    },
+    {
+      "sigma_km": 2,
+      "start_seed": 12000,
+      "n": 1200
+    }
+  ],
+  "validation": [
+    {
+      "sigma_km": 1.2,
+      "start_seed": 20000,
+      "n": 2400
+    },
+    {
+      "sigma_km": 1.6,
+      "start_seed": 24000,
+      "n": 2400
+    },
+    {
+      "sigma_km": 2,
+      "start_seed": 28000,
+      "n": 2400
+    }
+  ],
+  "distances_km": [
+    0,
+    0.5,
+    1,
+    2,
+    3
+  ],
+  "paired_bootstrap_reps": 2000,
+  "paired_bootstrap_seed": 1001126,
+  "methods": [
+    "single_2km",
+    "single_1km",
+    "four_mean",
+    "four_median"
+  ],
+  "primary_method": "four_median",
+  "scope": "Same generative model and point counts as protocol.json. Calibration uses independent stationary pairs only. Validation width 1.6 km is unused during calibration. The two error targets are design choices for this exercise, not course or regulatory standards.",
+  "comparisons": "Primary localization comparisons at 1 and 2 km are paired mean error differences of four_median minus single_2km, single_1km, and four_mean. The false-report criterion is the simultaneous-across-widths one-sided binomial upper bound no greater than 5%; for each nonzero design distance at or above 1 km, the detection criterion is the analogous lower bound of at least 80%. Use a Bonferroni adjustment over the three validation widths for each method, distance, and one-sided criterion. The 0.5 km group is diagnostic only."
+}

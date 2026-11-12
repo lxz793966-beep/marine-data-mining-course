@@ -1,0 +1,24 @@
+{
+  "domain_km": [0, 40],
+  "eligible_cell_center_km": [4, 36],
+  "cell_width_km": 2,
+  "reporting_threshold_km": 1,
+  "origins_km": [[0, 0], [1, 0], [0, 1], [1, 1]],
+  "origin_sensitivity_shifts_km": [[0, 0], [0.5, 0], [0, 0.5], [0.5, 0.5]],
+  "initial_center_phase_box_km": [18, 20],
+  "n_hotspot": 480,
+  "n_background": 320,
+  "hotspot_sigma_km": 1.2,
+  "wider_hotspot_sigma_km": 2.0,
+  "simulation_seeds": [0, 99],
+  "direction_sectors": 8,
+  "displacements_km": [0, 1, 2],
+  "bootstrap_seed": 9112026,
+  "bootstrap_repeats": 4000,
+  "design_notes": [
+    "Each seed has one initial point cloud and 17 independently sampled follow-up clouds. A random angle in each 45-degree sector is shared between its 1 and 2 km scenarios.",
+    "All methods consume the identical point cloud in each period. Across periods, samples are independently redrawn at the assigned centers.",
+    "Primary metrics are mean and P90 vector error by truth distance, the threshold report rates and origin sensitivity. Supplementary summaries include signed length bias, direction-sector results and paired cluster bootstrap intervals.",
+    "Sensitivity analysis changes only hotspot sigma from 1.2 to 2.0 km. Its results are separate from the main experiment."
+  ]
+}

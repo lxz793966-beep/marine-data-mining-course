@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-12",
+  "purpose": "Independent extension of the existing simulated AIS study. Freeze before generating new results; preserve all original experiments.",
+  "domain_km": [0,40], "eligible_center_km": [4,36],
+  "methods": ["single_2km","single_1km","four_mean","four_median"],
+  "distances_km": [0,1,2,3],
+  "density": {"n_reports":[200,400,800,1600],"hotspot_fractions":[0.3,0.6,0.9],"calibration_widths":[1.2,2.0],"test_widths":[1.2,1.6,2.0],"calibration_n":600,"test_n":400,"calibration_seed_base":10000000,"test_seed_base":20000000},
+  "geometry": {"widths_km":[1,2,3,4],"origins_per_axis":[1,2,3,4],"sigma_km":[1.2,2.0],"n":300,"seed_base":30000000,"n_reports":800,"hotspot_fraction":0.6,"random_base_origin":"Uniform [0,h)^2 independently by width and paired sample; reused across origin counts and both periods."},
+  "structure": {"scenarios":["isotropic","ellipse","double_dominant","double_equal","weight_switch"],"n":600,"seed_base":40000000,"n_reports":800,"hotspot_fraction":0.6,"sigma_km":1.2,"ellipse_sd_km":[1.2,2.4],"ellipse_angle_degrees":45,"double_separation_km":6,"double_weights":[0.7,0.5],"weight_switch":[0.7,0.3],"weight_switch_distances":[0]},
+  "calibration_alpha":0.04,"minimum_estimated_km":1,"score_decimals":12,"test_tail_probability":0.016666666666666666,"false_report_limit":0.05,"detection_target":0.8,"bootstrap_repeats":1000,"bootstrap_seed":20261112,
+  "statistics":"All method comparisons paired on identical point clouds. Test rates use one-sided Clopper-Pearson bounds with tail 0.05/3 across three widths within each density condition, method, distance and side; no simultaneous claim across the complete experiment matrix. Bootstrap mean-error intervals are descriptive pointwise 95% intervals. Geometry and structure are exploratory stress tests with pointwise 95% intervals.",
+  "density_thresholds":"Compare the original frozen thresholds with independent density-specific calibration: for each N, hotspot fraction and method, take the maximum 96th-percentile order statistic over widths 1.2 and 2.0. Do not calibrate using test data or width 1.6.",
+  "structure_truth":"Both components translate by the same vector in stable double-hotspot scenarios. In weight_switch both component centers remain stationary while weights change: report an activity-redistribution response, not a false-positive rate for an unchanged density field; vector error is undefined.",
+  "timing":"30 independently generated clouds at each N=200,800,3200; wall time for standalone single-, four-, nine-, sixteen-grid median estimators, h=2; randomized order and warmup; median and IQR; no end-to-end I/O or plotting. Same bincount implementation for all timing methods.",
+  "scope":"Synthetic report positions only; no vessel identifiers, trajectories, fishing labels, real AIS, or real-world accuracy claim. All added seeds are separated by family/cohort and from previous seeds. Shared initial samples across distances are accounted for by separate per-distance analyses."
+}

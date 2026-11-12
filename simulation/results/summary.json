@@ -1,0 +1,414 @@
+{
+  "numpy_version": "2.5.2",
+  "protocol_sha256": "1fb6cf7dd0e44819590eab19c23cd5f0f941739f4e6442293921589a737c59c1",
+  "scenarios": {
+    "main": {
+      "sigma_km": 1.2,
+      "distance": [
+        {
+          "truth_distance_km": 0,
+          "n_pairs": 100,
+          "single": {
+            "mean_vector_error_km": 0.14,
+            "p90_vector_error_km": 0.0,
+            "reported_count": 7,
+            "report_rate": 0.07,
+            "mean_length_bias_km": 0.14
+          },
+          "four": {
+            "mean_vector_error_km": 0.25118033988749894,
+            "p90_vector_error_km": 0.5,
+            "reported_count": 9,
+            "report_rate": 0.09,
+            "mean_length_bias_km": 0.25118033988749894
+          },
+          "delta_vector_error_km": {
+            "estimate": 0.11118033988749895,
+            "ci95": [
+              0.01,
+              0.21
+            ]
+          },
+          "delta_reported": {
+            "estimate": 0.02,
+            "ci95": [
+              -0.05,
+              0.09
+            ]
+          }
+        },
+        {
+          "truth_distance_km": 1,
+          "n_pairs": 800,
+          "single": {
+            "mean_vector_error_km": 1.199207772699075,
+            "p90_vector_error_km": 1.8324590310808284,
+            "reported_count": 440,
+            "report_rate": 0.55,
+            "mean_length_bias_km": 0.162427119327839
+          },
+          "four": {
+            "mean_vector_error_km": 0.4606785210811667,
+            "p90_vector_error_km": 0.8296804930552808,
+            "reported_count": 704,
+            "report_rate": 0.88,
+            "mean_length_bias_km": 0.07834982468319204
+          },
+          "delta_vector_error_km": {
+            "estimate": -0.7385292516179085,
+            "ci95": [
+              -0.7712029578643032,
+              -0.7047284681379263
+            ]
+          },
+          "delta_reported": {
+            "estimate": 0.33,
+            "ci95": [
+              0.29875,
+              0.3625
+            ]
+          },
+          "by_sector_mean_vector_error_km": [
+            {
+              "sector": 0,
+              "single": 1.2220882579912307,
+              "four": 0.430309423034021
+            },
+            {
+              "sector": 1,
+              "single": 1.2548779032418218,
+              "four": 0.5073725792692322
+            },
+            {
+              "sector": 2,
+              "single": 1.1511423110405175,
+              "four": 0.4402054511007604
+            },
+            {
+              "sector": 3,
+              "single": 1.22137054529462,
+              "four": 0.4567809398105377
+            },
+            {
+              "sector": 4,
+              "single": 1.1645666672520938,
+              "four": 0.49340120257957787
+            },
+            {
+              "sector": 5,
+              "single": 1.1601545866875669,
+              "four": 0.47450643243403406
+            },
+            {
+              "sector": 6,
+              "single": 1.2192566575454014,
+              "four": 0.44055346440925564
+            },
+            {
+              "sector": 7,
+              "single": 1.200205252539349,
+              "four": 0.4422986760119144
+            }
+          ]
+        },
+        {
+          "truth_distance_km": 2,
+          "n_pairs": 800,
+          "single": {
+            "mean_vector_error_km": 0.8768514258117455,
+            "p90_vector_error_km": 1.6582448549754385,
+            "reported_count": 760,
+            "report_rate": 0.95,
+            "mean_length_bias_km": 0.1634666931983804
+          },
+          "four": {
+            "mean_vector_error_km": 0.4603245062280411,
+            "p90_vector_error_km": 0.8247346740322972,
+            "reported_count": 800,
+            "report_rate": 1.0,
+            "mean_length_bias_km": 0.029968056677574212
+          },
+          "delta_vector_error_km": {
+            "estimate": -0.4165269195837044,
+            "ci95": [
+              -0.4670535366123841,
+              -0.3680766421476378
+            ]
+          },
+          "delta_reported": {
+            "estimate": 0.05,
+            "ci95": [
+              0.03625,
+              0.065
+            ]
+          },
+          "by_sector_mean_vector_error_km": [
+            {
+              "sector": 0,
+              "single": 0.8499323024699248,
+              "four": 0.47992189380290173
+            },
+            {
+              "sector": 1,
+              "single": 0.9349694813147803,
+              "four": 0.46051828244088533
+            },
+            {
+              "sector": 2,
+              "single": 0.8508210895310923,
+              "four": 0.49109341851793764
+            },
+            {
+              "sector": 3,
+              "single": 0.8579787981425138,
+              "four": 0.43735800864678814
+            },
+            {
+              "sector": 4,
+              "single": 0.9981114266075732,
+              "four": 0.5027932888077706
+            },
+            {
+              "sector": 5,
+              "single": 0.849757043468463,
+              "four": 0.4322017976381065
+            },
+            {
+              "sector": 6,
+              "single": 0.8417049669879703,
+              "four": 0.41124248502620114
+            },
+            {
+              "sector": 7,
+              "single": 0.8315362979716465,
+              "four": 0.46746687494373773
+            }
+          ]
+        }
+      ],
+      "phase_sensitivity": {
+        "single": {
+          "mean_km": 1.140812976492292,
+          "median_km": 0.7071067811865476,
+          "p90_km": 2.0615528128088303
+        },
+        "four": {
+          "mean_km": 0.6883685802354661,
+          "median_km": 0.7071067811865476,
+          "p90_km": 0.7071067811865476
+        },
+        "delta_mean_km": {
+          "estimate": -0.452444396256826,
+          "ci95": [
+            -0.5716256156098541,
+            -0.33740110860711736
+          ]
+        }
+      }
+    },
+    "wide": {
+      "sigma_km": 2.0,
+      "distance": [
+        {
+          "truth_distance_km": 0,
+          "n_pairs": 100,
+          "single": {
+            "mean_vector_error_km": 0.8337163089161124,
+            "p90_vector_error_km": 2.0,
+            "reported_count": 41,
+            "report_rate": 0.41,
+            "mean_length_bias_km": 0.8337163089161124
+          },
+          "four": {
+            "mean_vector_error_km": 0.6750748572346462,
+            "p90_vector_error_km": 1.118033988749895,
+            "reported_count": 37,
+            "report_rate": 0.37,
+            "mean_length_bias_km": 0.6750748572346462
+          },
+          "delta_vector_error_km": {
+            "estimate": -0.1586414516814662,
+            "ci95": [
+              -0.33739092602707593,
+              0.02470694313665286
+            ]
+          },
+          "delta_reported": {
+            "estimate": -0.04,
+            "ci95": [
+              -0.15,
+              0.07
+            ]
+          }
+        },
+        {
+          "truth_distance_km": 1,
+          "n_pairs": 800,
+          "single": {
+            "mean_vector_error_km": 1.2799166030993923,
+            "p90_vector_error_km": 1.9857546561718304,
+            "reported_count": 490,
+            "report_rate": 0.6125,
+            "mean_length_bias_km": 0.29389873628759183
+          },
+          "four": {
+            "mean_vector_error_km": 0.6811885313566768,
+            "p90_vector_error_km": 1.1399659737479908,
+            "reported_count": 624,
+            "report_rate": 0.78,
+            "mean_length_bias_km": 0.16438430347565824
+          },
+          "delta_vector_error_km": {
+            "estimate": -0.5987280717427154,
+            "ci95": [
+              -0.6433420661304742,
+              -0.5512041986751425
+            ]
+          },
+          "delta_reported": {
+            "estimate": 0.1675,
+            "ci95": [
+              0.12875,
+              0.20625
+            ]
+          },
+          "by_sector_mean_vector_error_km": [
+            {
+              "sector": 0,
+              "single": 1.3146502347084732,
+              "four": 0.7160213289131745
+            },
+            {
+              "sector": 1,
+              "single": 1.3026964288428224,
+              "four": 0.6626974370838988
+            },
+            {
+              "sector": 2,
+              "single": 1.268849705758175,
+              "four": 0.6673675320424399
+            },
+            {
+              "sector": 3,
+              "single": 1.3140592172764511,
+              "four": 0.7086972940502446
+            },
+            {
+              "sector": 4,
+              "single": 1.222892368978073,
+              "four": 0.6223323540720989
+            },
+            {
+              "sector": 5,
+              "single": 1.2483909019144002,
+              "four": 0.6895355226951426
+            },
+            {
+              "sector": 6,
+              "single": 1.2936790241924558,
+              "four": 0.702150299864076
+            },
+            {
+              "sector": 7,
+              "single": 1.2741149431242875,
+              "four": 0.6807064821323391
+            }
+          ]
+        },
+        {
+          "truth_distance_km": 2,
+          "n_pairs": 800,
+          "single": {
+            "mean_vector_error_km": 1.1304466662295496,
+            "p90_vector_error_km": 2.000779590489539,
+            "reported_count": 735,
+            "report_rate": 0.91875,
+            "mean_length_bias_km": 0.22176198074856354
+          },
+          "four": {
+            "mean_vector_error_km": 0.6673028872239485,
+            "p90_vector_error_km": 1.1720351314736792,
+            "reported_count": 797,
+            "report_rate": 0.99625,
+            "mean_length_bias_km": 0.08143039739977422
+          },
+          "delta_vector_error_km": {
+            "estimate": -0.46314377900560116,
+            "ci95": [
+              -0.5257247937609005,
+              -0.3999032590983234
+            ]
+          },
+          "delta_reported": {
+            "estimate": 0.0775,
+            "ci95": [
+              0.06,
+              0.09625
+            ]
+          },
+          "by_sector_mean_vector_error_km": [
+            {
+              "sector": 0,
+              "single": 1.0959009706923695,
+              "four": 0.6522324567561134
+            },
+            {
+              "sector": 1,
+              "single": 1.2368255130956265,
+              "four": 0.6933162962713468
+            },
+            {
+              "sector": 2,
+              "single": 1.0317682653097326,
+              "four": 0.6605657116467615
+            },
+            {
+              "sector": 3,
+              "single": 1.1562974524185752,
+              "four": 0.6558750791156183
+            },
+            {
+              "sector": 4,
+              "single": 1.2066605570473934,
+              "four": 0.6734507758351342
+            },
+            {
+              "sector": 5,
+              "single": 1.097611493232925,
+              "four": 0.621725527645604
+            },
+            {
+              "sector": 6,
+              "single": 1.1509909217178305,
+              "four": 0.7017825689857428
+            },
+            {
+              "sector": 7,
+              "single": 1.0675181563219451,
+              "four": 0.6794746815352677
+            }
+          ]
+        }
+      ],
+      "phase_sensitivity": {
+        "single": {
+          "mean_km": 1.3970751351913797,
+          "median_km": 1.5811388300841898,
+          "p90_km": 2.5
+        },
+        "four": {
+          "mean_km": 0.6817394826652358,
+          "median_km": 0.7071067811865476,
+          "p90_km": 0.7363961030678953
+        },
+        "delta_mean_km": {
+          "estimate": -0.7153356525261441,
+          "ci95": [
+            -0.8499492251890469,
+            -0.5790288077618255
+          ]
+        }
+      }
+    }
+  }
+}
